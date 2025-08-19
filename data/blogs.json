@@ -1,0 +1,75 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Designing a Clean Architecture for Frontend Apps",
+      "description": "How to keep your UI code modular, testable, and a joy to work with.",
+      "author": "Alex Rao",
+      "date": "2025-07-02",
+      "thumbnail": "assets/img/clean-architecture.jpg",
+      "categories": [
+        "Frontend",
+        "Architecture"
+      ],
+      "tags": [
+        "patterns",
+        "scaling",
+        "testing"
+      ],
+      "content": "\n              <img src='assets/img/clean-architecture.jpg' alt='Clean architecture illustration'/>\n              <p>Clean Architecture isn't just for backend. In the frontend, it helps you keep concerns separated so your components stay small and easy to reason about.</p>\n              <h2>Key Ideas</h2>\n              <ul>\n                <li>Separate UI, state, and services.</li>\n                <li>Use composition over inheritance.</li>\n                <li>Prefer pure functions for selectors and utilities.</li>\n              </ul>\n              <p>With clear boundaries, your app remains flexible as it grows.</p>\n            "
+    },
+    {
+      "id": 2,
+      "title": "A Practical Guide to Async/Await in JavaScript",
+      "description": "Common pitfalls, patterns, and a mental model that sticks.",
+      "author": "Maya Singh",
+      "date": "2025-06-15",
+      "thumbnail": "assets/img/async-await.jpg",
+      "categories": [
+        "JavaScript"
+      ],
+      "tags": [
+        "promises",
+        "async",
+        "tips"
+      ],
+      "content": "\n              <img src='assets/img/async-await.jpg' alt='Async illustration'/>\n              <p>Async/await makes asynchronous code read like synchronous code. But there are still edge cases!</p>\n              <h2>Tips</h2>\n              <ol>\n                <li>Always wrap awaited calls with try/catch.</li>\n                <li>Use <code>Promise.all</code> for independent tasks.</li>\n                <li>Don't block the main thread\u2014batch DOM updates.</li>\n              </ol>\n            "
+    },
+    {
+      "id": 3,
+      "title": "From Idea to MVP: Shipping in 7 Days",
+      "description": "A brisk playbook for validating ideas without burning out.",
+      "author": "Samir Patel",
+      "date": "2025-05-01",
+      "thumbnail": "assets/img/ship-mvp.jpg",
+      "categories": [
+        "Product",
+        "Startup"
+      ],
+      "tags": [
+        "roadmap",
+        "validation",
+        "ux"
+      ],
+      "content": "\n              <img src='assets/img/ship-mvp.jpg' alt='MVP launch'/>\n              <p>Speed with purpose. Ship a Minimum Viable Product that actually de-risks your idea.</p>\n              <h2>The 7-Day Outline</h2>\n              <p>Day 1: Define success. Day 2: Scope ruthlessly. Day 3-5: Build the core. Day 6: Test. Day 7: Ship.</p>\n            "
+    },
+    {
+      "id": 4,
+      "title": "Understanding CSS Grid \u2014 The Missing Manual",
+      "description": "Grid finally makes layout\u2026 not painful. Learn the 80% you\u2019ll use daily.",
+      "author": "Nora Iyer",
+      "date": "2025-03-21",
+      "thumbnail": "assets/img/css-grid.jpg",
+      "categories": [
+        "CSS",
+        "Frontend"
+      ],
+      "tags": [
+        "layout",
+        "grid",
+        "responsive"
+      ],
+      "content": "\n              <img src='assets/img/css-grid.jpg' alt='CSS Grid demo'/>\n              <p>CSS Grid gives you two-dimensional layout with minimal code. Master a few properties and you're dangerous (in a good way).</p>\n              <pre><code>.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}</code></pre>\n            "
+    }
+  ]
+}

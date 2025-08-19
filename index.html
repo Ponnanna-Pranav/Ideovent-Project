@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog – Listing</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="container header">
+    <h1 class="site-title">Tech & Tales</h1>
+    <p class="site-subtitle">Crisp reads, clean code, and curious ideas.</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="searchInput" type="search" placeholder="Search by title, tag, or text…" aria-label="Search blogs"/>
+      <select id="categoryFilter" aria-label="Filter by category">
+        <option value="">All categories</option>
+      </select>
+      <select id="tagFilter" aria-label="Filter by tag">
+        <option value="">All tags</option>
+      </select>
+    </section>
+
+    <section id="blogGrid" class="grid"></section>
+
+    <div id="emptyState" class="empty" hidden>
+      <h3>No results</h3>
+      <p>Try clearing filters or using different keywords.</p>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <p>&copy; <span id="year"></span> Tech & Tales</p>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

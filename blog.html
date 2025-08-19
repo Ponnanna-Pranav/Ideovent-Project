@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog – Details</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="container header">
+    <a class="back-link" href="index.html">&larr; Back to all posts</a>
+    <h1 class="site-title" id="postTitle">Post</h1>
+    <p class="meta" id="postMeta"></p>
+  </header>
+
+  <main class="container">
+    <article id="postContent" class="post"></article>
+
+    <aside class="post-aside">
+      <div id="postCategories" class="pill-row"></div>
+      <div id="postTags" class="pill-row"></div>
+    </aside>
+
+    <section class="more-section">
+      <h3>More to explore</h3>
+      <div id="moreGrid" class="grid small"></div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>&copy; <span id="year"></span> Tech & Tales</p>
+  </footer>
+
+  <script src="js/detail.js" defer></script>
+</body>
+</html>
